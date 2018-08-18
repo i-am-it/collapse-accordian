@@ -1,3 +1,10 @@
+:root{
+	font-size: 16px;
+}
+
+.head{
+	font-size: 2rem;
+}
 
 .accordian{
 	padding: 50px 20px 20px 20px;
@@ -20,7 +27,7 @@
 	border-color: lightgrey;
 	padding: 20px;
 	background-color: white;
-	font-size: 16px;
+	font-size: 1rem;
 	font-family: Arial;
 	color: black;
 }
@@ -33,6 +40,19 @@
 	background-color: #f2f2f2;
 	border: solid;
 	border-color: #f2f2f2;
-	font-size: 22px;
+	font-size: 1.5rem;
 	color: grey;
+}
+
+@media only screen and (max-width: 992px){
+	.btn{
+		font-size: 2rem;
+	}
+
+	.body{
+		font-size: 1.5rem
+	}
+	.head{
+		font-size: 2.5rem;
+	}
 }
