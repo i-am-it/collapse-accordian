@@ -1,0 +1,38 @@
+
+.accordian{
+	padding: 50px 20px 20px 20px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+}
+
+.header{
+	background-color: #f2f2f2;
+	border: solid;
+	border-width: 1px;
+	border-color: lightgrey;	
+	padding: 10px;
+	font-family: Arial;
+}
+.body{
+	border: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	padding: 20px;
+	background-color: white;
+	font-size: 16px;
+	font-family: Arial;
+	color: black;
+}
+
+.btn:hover {
+	text-decoration: underline;
+}
+
+.btn{
+	background-color: #f2f2f2;
+	border: solid;
+	border-color: #f2f2f2;
+	font-size: 22px;
+	color: grey;
+}

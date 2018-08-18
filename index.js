@@ -1,0 +1,19 @@
+$(document).ready(()=>{
+	$(".body").hide()
+	$(".btn1-acc").click(()=>{
+		$(".body1").slideToggle()
+		$(".body2").slideUp()
+		$(".body3").slideUp()
+	})
+	$(".btn2-acc").click(()=>{
+		$(".body1").slideUp()
+		$(".body2").slideToggle()
+		$(".body3").slideUp()
+	})
+	$(".btn3-acc").click(()=>{
+		$(".body1").slideUp()
+		$(".body2").slideUp()
+		$(".body3").slideToggle()
+	})
+
+})
